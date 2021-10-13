@@ -1,0 +1,9 @@
+.zombie	
+{
+	background-image: url(../../../../uploads/mobs/zombiefast/zombie.png);
+	width:35px;
+	height:42px;
+	position:absolute;
+	bottom:0px;
+	background-repeat: no-repeat;
+}

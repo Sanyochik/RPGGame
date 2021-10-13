@@ -1,0 +1,99 @@
+body
+{
+	background-color: darkcyan;
+}
+.Zability
+{
+	position:absolute;
+	left:20px;
+	border-radius: 2px;
+	border:1px solid black;
+	top:30%;
+	background-image: url(../../uploads/heroes/warior/ability/Zability.png);
+	width:40px;
+	height:40px;
+	background-size: cover;
+	background-repeat: no-repeat; 
+}
+.Xability
+{
+	position:absolute;
+	left:80px;
+	border-radius: 2px;
+	border:1px solid black;
+	top:30%;
+	background-image: url(../../uploads/heroes/warior/ability/Xability.png);
+	width:40px;
+	height:40px;
+	background-size: cover;
+	background-repeat: no-repeat; 
+}
+.hero
+{
+	background-image:url(../../uploads/heroes/warior/models/warior.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width:55px;
+	height:50px;
+	position:absolute;
+	bottom:0px;
+
+}
+.aftershok
+{
+	border: 20px solid transparent; 
+	border-bottom: 20px solid green;
+	height: 10px;
+	width:5px;
+	bottom:-20px;
+	position: absolute;
+	animation: aftershok1 2s alternate;
+}
+.aftershok2
+{
+	border: 20px solid transparent; 
+	border-bottom: 20px solid black;
+	height: 10px;
+	width:7px;
+	bottom:-20px;
+	position: absolute;
+	animation: aftershok2 2s infinite;
+}
+.aftershok3
+{
+	border: 20px solid transparent; 
+	border-bottom: 20px solid red;
+	height: 10px;
+	width:10px;
+	bottom:-20px;
+	position: absolute;
+	animation: aftershok3 2s infinite;
+}
+.gold
+{
+	position: absolute;
+	top:8px;
+	left:50px;
+}
+.bloodaxe
+{
+	position:absolute;
+	width:20px;
+	height:20px;
+	left:5px;
+	top:5px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+@keyframes aftershok1 {
+    0%   {}
+    100%{transform: translate(0,-20px);}
+}
+@keyframes aftershok2 {
+    0%   {}
+    100%{transform: translate(0,-20px);}
+}
+@keyframes aftershok3 {
+    0%   {}
+    100%{transform: translate(0,-20px);}
+}
